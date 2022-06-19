@@ -1,0 +1,74 @@
+*   {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.form   {
+  display: flex;
+  justify-content: center;
+  width: auto;
+
+}
+
+.input   {
+    width: 250px;
+    height: 30px;
+}
+
+button  {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: black;
+    color: blueviolet;
+    margin-left: 1px;
+    cursor: pointer;
+
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: no-drop;
+}
+.error{
+    -webkit-box-shadow: 0px 0px 19px 16px rgba(251, 2, 2, 0.2);
+    -moz-box-shadow: 0px 0px 19px 16px rgba(251, 2, 2, 0.2);
+    box-shadow: 0px 0px 19px 16px rgba(251, 2, 2, 0.2);
+    
+}
+
+.text__error {
+    color: red;
+    text-shadow: 1px 0px 3px red;
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.newTags    {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+   margin-top: 15px;
+   flex-direction: column;
+}
+
+.newLi  {
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: aqua;
+    color: azure;
+    align-self:center;
+    margin-top: 7px;
+    
+}
+
+.deleteBtn  {
+    margin-left: 10px;
+  cursor: pointer;
+}
